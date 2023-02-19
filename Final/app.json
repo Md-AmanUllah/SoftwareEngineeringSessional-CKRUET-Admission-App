@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "CKRUET",
+    "slug": "CKRUET",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/android.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.vanloo.CKRUET"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "07805d53-e1bd-476a-8d61-c1e104465f34"
+      }
+    }
+  }
+}
